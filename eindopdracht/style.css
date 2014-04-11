@@ -19,13 +19,6 @@ section {
 	margin: 0 10px 0 0;
 }
 
-.textshadow h1, h2, h3 {
-	text-shadow: 1px 1px 1px #ccc;
-}
-.no-textshadow h1, h2, h3 {
-	color: black;
-}
-
 
 h1 {
 	font-size: 1.5em;
@@ -41,6 +34,13 @@ h1, h2, h3 {
 	text-shadow: 1px 1px 1px #ccc;
 	color: black;
 	font-weight: normal;
+}
+
+.textshadow h1, h2, h3 {
+	text-shadow: 1px 1px 1px #ccc;
+}
+.no-textshadow h1, h2, h3 {
+	color: black;
 }
 
 h3, strong {
