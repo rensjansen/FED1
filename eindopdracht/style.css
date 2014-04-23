@@ -19,6 +19,16 @@ section {
 	margin: 0 10px 0 0;
 }
 
+article {
+	float: left;
+	width: 90%;
+}
+
+.fix {
+	float: left;
+	width: 70%;
+}
+
 
 h1 {
 	font-size: 1.5em;
@@ -63,7 +73,7 @@ a:hover, a:active {
 	color: #336666;
 }
 
-.erb-image-wrapper img{
+figure img{
     max-width:100% !important;
     height:auto;
     display:block;
