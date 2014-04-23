@@ -6,7 +6,7 @@ body {
 	background: #fff;
 	border: 1px solid #ccc;
 	border-radius: 6px;
-	width: 758px;
+	width: 75%;
 	margin: 20px auto;
 	font-family: Arial, Helvetica, sans-serif;
 	line-height: 1.6;
@@ -15,7 +15,7 @@ body {
 
 section {
 	float: left; 
-	width: 526px;
+	width: 100%;
 	margin: 0 10px 0 0;
 }
 
@@ -26,7 +26,7 @@ article {
 
 .fix {
 	float: left;
-	width: 70%;
+	width: 75%;
 }
 
 
@@ -107,7 +107,6 @@ nav ul li.hover ul {
 	position: absolute;
 	display: inline;
 	left: auto;
-	width: 200px;
 	margin: 0 auto;
 	padding: 0; 
 }
@@ -217,7 +216,7 @@ fieldset {
 	input[type="submit"] {
 		display: block;
 		background: #669999;
-		width: 125px;
+		width: 35%;
 		padding: 8px 20px;
 		color: #fff;
 		border-width: 0;
@@ -235,18 +234,17 @@ fieldset {
 	input[type="submit"]:hover {
 		background: #336666;
 		color: #fff;
-		width: 200px;
+		width: 40%;
 	}
 
 aside {
 	font-size: 0.7em;
-	width: 220px; 
+	width: 25%; 
 	float: right;
 	padding: 4px 0 0 0;
 }
 
 aside section {
-	width: 200px; 
 	float: right; 
 	margin: 0 20px 0 0;
 }
@@ -258,7 +256,7 @@ footer {
 	font-style: italic;
 	margin-top: 20px;
 	overflow: hidden;
-	width: 758px; 
+	width: 100%; 
 	margin: 0 auto; 
 	padding: 10px 22px 50px 22px;
 	clear: both;
